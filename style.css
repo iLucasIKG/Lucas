@@ -1,0 +1,33 @@
+#canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: #494949;
+    
+  }
+
+  .casilla {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .casilla.green {
+    background-color: #00ff00;
+  }
+
+  .highlight {
+    background-color: #fff;
+    font-size: 18px;
+  }
+
+  #spin-button {
+    display: block;
+    margin: 20px auto;
+  }
+  
